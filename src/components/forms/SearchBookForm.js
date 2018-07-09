@@ -7,11 +7,7 @@ class SearchBookForm extends Component {
     state={
         query:'',
         loading: false,
-        options:[{
-            key:1,
-            value:1,
-            text: "first book"
-        }],
+        options:[],
         books:{}
     }
 

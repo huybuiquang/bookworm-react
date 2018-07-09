@@ -43,14 +43,16 @@
         "react/prefer-stateless-function":"off",
         "no-const-assign": "warn",
         "no-this-before-super": "warn",
-        "no-undef": "warn",
+        "no-undef": 2,
         "no-unreachable": "warn",
         "no-unused-vars": "warn",
         "valid-typeof": "warn",
         "import/prefer-default-export":"off",
         "arrow-body-style":"off",
         "no-underscore-dangle": 0 ,
-        "react/self-closing-comp":1
+        "react/self-closing-comp":1,
+        "react/no-unused-prop-types":1,
+        "jsx-a11y/click-events-have-key-events":0
     },
     "settings": {
         
